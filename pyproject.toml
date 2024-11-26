@@ -1,0 +1,12 @@
+[project]
+name = "aiaxe"
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version>="3.10"',
+    "click",
+    "boto3"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

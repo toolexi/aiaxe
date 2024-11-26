@@ -1,0 +1,1 @@
+from aiaxe._version import __version__
