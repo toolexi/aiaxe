@@ -1,2 +1,2 @@
 # aiaxe
-Chains to Automate, Scale and Streamline AI Solution 
+Chains to Automate, Scale and Streamline AI Solutions
