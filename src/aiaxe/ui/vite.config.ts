@@ -20,4 +20,14 @@ export default defineConfig({
   build: {
     assetsDir: "static/assets",
   },
+  server: {
+    host: "localhost",
+    proxy: {
+      "/aiaxe": {
+        target: "http://127.0.0.1:8000",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/aiaxe/, ""),
+      },
+    },
+  },
 });

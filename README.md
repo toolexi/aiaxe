@@ -1,2 +1,3 @@
 # aiaxe
-Chains to Automate, Scale and Streamline AI Solutions
+
+AIAxe - MLOps and AIOps Platform

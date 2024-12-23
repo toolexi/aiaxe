@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aiaxe"
-description = "AI Chains to Automate and Streamline Workflows"
+description = "AIAxe - MLOps and AIOps Platform"
 version = "0.0.1"
 authors = [
     {name = "toolexi", email = "jayachandra.s.reddy@gmail.com"},
@@ -13,7 +13,6 @@ keywords = ["aiaxe", "ai", "automation","GenAI"]
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
-
 
 dependencies = [
     "build==1.2.2.post1",
