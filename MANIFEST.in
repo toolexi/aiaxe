@@ -1,0 +1,4 @@
+recursive-exclude venv_aiaxe *
+recursive-include aiaxe/ui *
+recursive-exclude aiaxe/ui/node_modules *
+recursive-exclude aiaxe/ui/dist *
