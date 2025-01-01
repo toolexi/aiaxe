@@ -22,5 +22,3 @@ def build_frontend():
             sys.exit(1)
     else:
         pass
-
-    return frontend_path

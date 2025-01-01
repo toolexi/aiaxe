@@ -1,5 +1,5 @@
 import click
-from aiaxe.components._requests_handler import start_components
+from components._requests_handler import start_components
 
 @click.group()
 def cli():

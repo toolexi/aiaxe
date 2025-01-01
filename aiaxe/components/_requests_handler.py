@@ -4,7 +4,7 @@ import uvicorn
 from starlette.responses import RedirectResponse,FileResponse
 from fastapi import FastAPI
 # from components._requests_handler import router
-from aiaxe.scripts.build_layout import build_frontend
+from scripts.build_layout import build_frontend
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
@@ -34,7 +34,6 @@ async def hello():
 async def client():  return FileResponse("../ui/dist/index.html")
 
 def start_components():
-    x = build_frontend()
-    print(x)
+    build_frontend()
     mount_components()
-    # uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
