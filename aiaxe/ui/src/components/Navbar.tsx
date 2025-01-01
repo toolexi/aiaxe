@@ -1,5 +1,5 @@
-const Navbar = () => {
-  return <h2>This is Navbar</h2>;
-};
+import "../App.css";
 
-export default Navbar;
+export const NavbarTop = () => {
+  return <h1>AiAxe - Navbar Section</h1>;
+};
